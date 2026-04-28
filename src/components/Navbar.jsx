@@ -15,6 +15,8 @@ const Navbar = () => {
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
+        <Link to="/login">Login</Link>
+
         <button style={{marginLeft:"10px"}} onClick={toggleTheme}>  {theme === 'light' ? 'Dark' : 'Light'}</button>
       </div>
 
