@@ -105,3 +105,25 @@ body.light .form {
 .form button:active {
   transform: scale(0.98);
 }
+.form select {
+  padding: 10px;
+  border-top-right-radius: 98px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.switch-text {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.switch-text a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+.switch-text a:hover {
+  text-decoration: underline;
+}
